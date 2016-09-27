@@ -3,7 +3,7 @@ Simple monitoring using requests and unittest on AWS Lambda
 How to use:
 
 1. Create a Simple Notification Service (SNS) topic with email recipients and set the ARN as SNS_TOPIC_ARN in checks.py
-2. Modify checks.py with test cases - see example
+2. Copy checks_example.py to checks.py and customize with your test cases
 3. Create an IAM role called `lambda_sns` with the following policy:
 
 ```
