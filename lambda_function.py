@@ -4,7 +4,7 @@ import requests
 import boto3
 import unittest
 
-client = boto3.client('sns')
+client = boto3.client('sns',region_name='us-west-2')
 
 def lambda_handler(event,context):
   loader = unittest.TestLoader()
